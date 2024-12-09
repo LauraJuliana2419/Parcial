@@ -22,13 +22,13 @@ def Calcular(n):
             print("El numero par dividido entre dos da: ",resultado_2)
 numero_2=int(input("Ingrese un numero:"))
 Calcular(numero_2)
-##Programa para calcular año de superacion
+##Programa para calcular año de superacion en un periodo de x años
 Porcentaje_a=2/100
 Porcentaje_b=3/100
 
 A=25
 B=18.9
-x=5
+x=15
 for i in range (1,x):
  i+=1
 Interes=A*Porcentaje_a*i
